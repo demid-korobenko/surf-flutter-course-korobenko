@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(App());
 }
 
-class MyApp extends StatelessWidget {
+class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Surf project',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -20,6 +20,10 @@ class MyApp extends StatelessWidget {
 }
 
 class MyFirstWidget extends StatelessWidget {
+
+  // Type checkWidgetType () {
+  //   return context.runtimeType;
+  // }
 
   int buildCounter = 0;
 
@@ -41,6 +45,10 @@ class MySecondWidget extends StatefulWidget {
 }
 
 class _MySecondWidgetState extends State<MySecondWidget> {
+
+  Type checkWidgetType () {
+    return context.runtimeType;
+  }
 
   int buildCounter = 0;
 
