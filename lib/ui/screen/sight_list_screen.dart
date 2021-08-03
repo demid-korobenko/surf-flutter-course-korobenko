@@ -11,11 +11,22 @@ class _SightListScreenState extends State<SightListScreen> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        title: Text('Sight List Screen'),
+        toolbarHeight: 150,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        title: Padding(
+          padding: const EdgeInsets.only(top: 64.0,left: 16.0,right: 16.0),
+          child: Text(
+            'Список\nинтересных мест',
+            style: TextStyle(
+                fontSize: 32,
+                fontFamily: 'Roboto',
+                fontWeight: FontWeight.w700,
+                color: Colors.black),
+          ),
+        ),
+        elevation: 0,
       ),
-      body: Center(
-          child: Text("Hello!")
-      ),
+      body: Center(),
     );
   }
 }
