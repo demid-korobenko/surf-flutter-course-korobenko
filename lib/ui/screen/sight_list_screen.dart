@@ -15,13 +15,23 @@ class _SightListScreenState extends State<SightListScreen> {
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         title: Padding(
           padding: const EdgeInsets.only(top: 64.0,left: 16.0,right: 16.0),
-          child: Text(
-            'Список\nинтересных мест',
-            style: TextStyle(
-                fontSize: 32,
-                fontFamily: 'Roboto',
-                fontWeight: FontWeight.w700,
-                color: Colors.black),
+          child: RichText(
+            text: TextSpan(
+                text: "С",
+                style: TextStyle(fontSize: 32, fontFamily: 'Roboto', fontWeight: FontWeight.w700, color: Color(0xff4CAF50)),
+                children: [
+                  TextSpan(
+                      text: "писок\n",
+                      style: TextStyle(color: Color(0xff252849)),
+                      children: [
+                        TextSpan(
+                          text: "И",
+                          style: TextStyle(color: Color(0xfffcdd3b)),
+                        ),
+                        TextSpan(text: "нтересных мест"),
+                      ]),
+                ]),
+            textAlign: TextAlign.left,
           ),
         ),
         elevation: 0,
