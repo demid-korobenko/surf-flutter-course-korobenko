@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:places/domain/sight.dart';
 
 class SightCard extends StatelessWidget {
-  Sight sight;
+  final Sight sight;
 
   SightCard({@required this.sight});
 
