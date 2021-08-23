@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'sight_card.dart';
+import 'package:places/ui/screen/sight_card.dart';
 import 'package:places/mocks.dart';
-import 'customAppbar.dart';
+import 'package:places/ui/screen/custom_appbar.dart';
 
 class SightListScreen extends StatefulWidget {
+
+  const SightListScreen({Key key}) : super(key: key);
+
   @override
   _SightListScreenState createState() => _SightListScreenState();
 }
@@ -15,7 +18,7 @@ class _SightListScreenState extends State<SightListScreen> {
       resizeToAvoidBottomInset: false,
       appBar: CustomAppBar(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        title: Text(
+        title: const Text(
           'Список\nинтересных мест',
           style: TextStyle(fontSize: 32, fontFamily: 'Roboto', fontWeight: FontWeight.w700, color: Color(0xff252849)),
         ),

@@ -9,14 +9,18 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
   flutter_svg: ^0.22.0
 
 dev_dependencies:
+  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
+  lints: ^1.0.1
+  surf_lint_rules: ^1.0.0
+
 
 flutter:
 
@@ -24,6 +28,7 @@ flutter:
 
   assets:
     - res/
+    - res/Ico/
   fonts:
     - family: Roboto
       fonts:
