@@ -1,8 +1,8 @@
 import 'package:places/domain/sight.dart';
 
-final List mocks = [
-  Sight(type: "галерея", name: "Pinchuk Art Centre", lat: 50.4417793, lon: 30.5211407, details: "Галерея сучасного мистецтва в історичній будівлі на 6 поверхів, у якій є відеозал і кафе", url: "http://pinchukartcentre.org/"),
-  Sight(type: "музей", name: "Музей історії туалету ", lat: 50.4385988, lon: 30.5264311, details: "Незвичайна виставка дерев'яних і порцелянових унітазів, стільчаків та нічних горщиків у фортеці XIX ст.", url: "http://www.museumtoilet.com.ua/"),
-  Sight(type: "історична пам'ятка", name: 'Будинок Городецького', lat: 50.4412951, lon: 30.5219418, details: "Визначна будівля в стилі модерн і президентська резиденція з галереєю та скульптурами тварин"),
-  Sight(type: "монастырь", name: "Києво-Печерська лавра", lat: 50.4385988, lon: 30.5264311, details: "Визначний монастирський комплекс, відомий мережею печер і пишно оздобленими храмами", url: "https://www.lavra.ua/")
+const List<Sight> mocks = [
+  Sight(type: 'галерея', name: 'Pinchuk Art Centre', lat: 50.4417793, lon: 30.5211407, details: 'Галерея сучасного мистецтва в історичній будівлі на 6 поверхів, у якій є відеозал і кафе', url: 'https://lh5.googleusercontent.com/p/AF1QipOwXf5lLvcIxrgezZFZvJfz7dYRO89D9v8NUIhe=w408-h243-k-no',),
+  Sight(type: 'музей', name: 'Музей історії туалету ', lat: 50.4385988, lon: 30.5264311, details: "Незвичайна виставка дерев'яних і порцелянових унітазів, стільчаків та нічних горщиків у фортеці XIX ст.", url: 'https://lh5.googleusercontent.com/p/AF1QipNj0KXTvdchBWkq0waPxQBz49WX_V9IZB4rgVoj=w408-h271-k-no',),
+  Sight(type: "історична пам'ятка", name: 'Будинок Городецького', lat: 50.4412951, lon: 30.5219418, details: 'Визначна будівля в стилі модерн і президентська резиденція з галереєю та скульптурами тварин', url: 'https://lh6.googleusercontent.com/proxy/X4e5CbZoOHwi7hkHm0zTm6SEBOxacBOOL8eVd756y0yHOGq38OX8Gw7ajW833z15pbwp3HUppQAKjVLEwQ_CXrVkbpldnkJzbDfjhWempUMNy-fZPqxjjTrFNW_GZ9q-HS76jQSOP4O066yxEcDMxEXbET_qRTs=w408-h270-k-no',),
+  Sight(type: 'монастырь', name: 'Києво-Печерська лавра', lat: 50.4385988, lon: 30.5264311, details: 'Визначний монастирський комплекс, відомий мережею печер і пишно оздобленими храмами', url: 'https://lh5.googleusercontent.com/p/AF1QipNNNKXDYgL32MAtX_ELMaXQn57Z2ogJDOf2UTRP=w408-h306-k-no',),
 ];

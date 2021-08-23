@@ -1,17 +1,18 @@
 import 'package:flutter/cupertino.dart';
 
 class Sight {
-  String name;
-  double lat, lon;
-  String url;
-  String details;
-  String type;
+  final String name;
+  final double lat, lon;
+  final String url;
+  final String details;
+  final String type;
 
-  Sight(
+  const Sight(
       {@required this.type,
       @required this.name,
       @required this.lat,
       @required this.lon,
       this.details,
-      this.url});
+      this.url,
+      });
 }
